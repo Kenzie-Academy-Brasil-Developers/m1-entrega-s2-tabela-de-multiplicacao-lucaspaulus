@@ -1,4 +1,4 @@
-function nomeDaSuaFuncao() { // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
+function multiValues() { // Substitua "nomeDaSuaFuncao" por um nome mais apropriado
     // TODO: escrever dois loops aninhados para desenhar o array bidimensional e monstar o restante da tabela no console.
     let multi = [];
     for (let row = 0; row <= 10; row++) {
@@ -10,4 +10,4 @@ function nomeDaSuaFuncao() { // Substitua "nomeDaSuaFuncao" por um nome mais apr
     return multi
 }
 
-console.table(nomeDaSuaFuncao())
+console.table(multiValues())
